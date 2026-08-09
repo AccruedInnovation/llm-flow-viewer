@@ -3,6 +3,10 @@
 TUI application for browsing and analyzing LLM API call flows captured via [mitmproxy](https://mitmproxy.org/).
 Parse raw flow dumps, navigate call trees, inspect requests/responses/tool calls/timing/tokens, and view cross-session analytics dashboards.
 
+![explore.png](docs\explore.png)
+
+![dash.png](docs\dash.png)
+
 ## Quickstart
 
 ```bash
@@ -18,19 +22,19 @@ python -m llm_flow_viewer --flows-dir /path/to/flow/files
 
 ### CLI arguments
 
-| Flag | Default | Description |
-|---|---|---|
+| Flag          | Default  | Description                               |
+| ------------- | -------- | ----------------------------------------- |
 | `--flows-dir` | `flows/` | Directory containing mitmproxy flow files |
-| `--session` | _(none)_ | Jump directly to a session by filename |
+| `--session`   | _(none)_ | Jump directly to a session by filename    |
 
 ### TUI views
 
-| Key | View |
-|---|---|
-| `b` | Browse — three-panel session explorer |
+| Key | View                                         |
+| --- | -------------------------------------------- |
+| `b` | Browse — three-panel session explorer        |
 | `d` | Dashboard — cross-session metrics and charts |
-| `?` | Help — keyboard shortcuts overlay |
-| `q` | Quit |
+| `?` | Help — keyboard shortcuts overlay            |
+| `q` | Quit                                         |
 
 ## Project layout
 
