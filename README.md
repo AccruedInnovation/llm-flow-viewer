@@ -3,9 +3,9 @@
 TUI application for browsing and analyzing LLM API call flows captured via [mitmproxy](https://mitmproxy.org/).
 Parse raw flow dumps, navigate call trees, inspect requests/responses/tool calls/timing/tokens, and view cross-session analytics dashboards.
 
-![explore.png](docs\explore.png)
+![explore.png](docs/explore.png)
 
-![dash.png](docs\dash.png)
+![dash.png](docs/dash.png)
 
 ## Quickstart
 
